@@ -7,5 +7,5 @@
 ## 解决方案
 代码分为三个部分，特征工程，LGB模型和NN模型。LGB使用了排序模型，NN使用了改造的ESIM(Gate-ESIM)，关于模型结构请见PPT。
 
-## 其他说明
+## 致谢
 **感谢两位队友的carry@Greatpan@napianlin**
