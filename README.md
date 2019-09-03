@@ -1,13 +1,11 @@
 # BDC2019_Rank2
 2019中国高校计算机大赛-第二名方案
 
+## 赛题及数据说明
+赛题及数据见页面[2019中国高校大数据挑战赛](https://www.kesci.com/home/competition/5cc51043f71088002c5b8840/content)
 
-## 数据格式
+## 解决方案
+代码分为三个部分，特征工程，LGB模型和NN模型。LGB使用了排序模型，NN使用了改造的ESIM(Gate-ESIM)，关于模型结构请见PPT。
 
-|列名|类型|示例|
-|---|---|---|
-|query_id|int|3|
-|query|hash string，term空格分割|1 9 117|
-|query_title_id|title在query下的唯一标识|2|
-|title|hash string，term空格分割|3 9 120|
-|label|int, 取值{0, 1}|0|
+## 其他说明
+**感谢两位队友的carry@Greatpan@napianlin **，
